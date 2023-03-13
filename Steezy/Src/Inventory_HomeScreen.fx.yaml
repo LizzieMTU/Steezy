@@ -1,16 +1,59 @@
 Inventory_HomeScreen As screen:
 
-    TextInput1 As text:
-        Default: ="Search Inventory..."
-        HintText: ="Search Inventory..."
-        X: =478
-        Y: =110
-        ZIndex: =1
-
     Icon1 As icon.ChevronLeft:
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate('Home Screen')
         X: =40
         Y: =40
         ZIndex: =3
+
+    Button1 As button:
+        Height: =45
+        Text: ="Helmets"
+        Width: =230
+        X: =201
+        Y: =203
+        ZIndex: =4
+
+    Button1_1 As button:
+        Height: =45
+        Text: |-
+            ="Ski Boots
+            "
+        Width: =230
+        X: =201
+        Y: =261
+        ZIndex: =5
+
+    Button1_2 As button:
+        Height: =45
+        Text: ="Skies"
+        Width: =230
+        X: =201
+        Y: =321
+        ZIndex: =6
+
+    Button1_3 As button:
+        Height: =45
+        Text: ="Poles"
+        Width: =230
+        X: =201
+        Y: =379
+        ZIndex: =7
+
+    Button1_4 As button:
+        Height: =45
+        Text: ="Snowboards"
+        Width: =230
+        X: =201
+        Y: =436
+        ZIndex: =8
+
+    Button1_5 As button:
+        Height: =45
+        Text: ="Snowboard Boots"
+        Width: =230
+        X: =201
+        Y: =494
+        ZIndex: =9
 
