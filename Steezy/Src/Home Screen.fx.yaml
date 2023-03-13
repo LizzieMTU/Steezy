@@ -1,0 +1,91 @@
+"'Home Screen' As screen":
+
+    newCust As button:
+        Height: =76
+        Text: ="New Customer"
+        Width: =210
+        X: =120
+        Y: =105
+        ZIndex: =1
+
+    returnCust As button:
+        Height: =70
+        Text: ="Returning Customer"
+        Width: =210
+        X: =120
+        Y: =208
+        ZIndex: =2
+
+    Image2 As image:
+        Height: =106
+        Width: =118
+        X: =1248
+        ZIndex: =3
+
+    inventory As button:
+        Height: =70
+        Text: ="View Inventory"
+        Width: =210
+        X: =120
+        Y: =542
+        ZIndex: =4
+
+    daily_stats_button As button:
+        Height: =76
+        Text: ="Daily Stats"
+        Width: =210
+        X: =358
+        Y: =105
+        ZIndex: =5
+
+    season_stats_button As button:
+        Height: =70
+        Text: ="Season Stats"
+        Width: =210
+        X: =358
+        Y: =208
+        ZIndex: =6
+
+    lifetime_stats_button As button:
+        Height: =70
+        Text: ="Lifetime Stats"
+        Width: =210
+        X: =358
+        Y: =302
+        ZIndex: =7
+
+    Rectangle1 As rectangle:
+        BorderThickness: =10
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =614
+        Width: =542
+        X: =689
+        Y: =60
+        ZIndex: =8
+
+    Label1 As label:
+        Align: =Align.Center
+        Size: =20
+        Text: ="At a Glance"
+        X: =885
+        Y: =88
+        ZIndex: =9
+
+    Label2 As label:
+        Align: =Align.Center
+        Height: =48
+        Text: ="Number of reservations today"
+        Width: =206
+        X: =714
+        Y: =195
+        ZIndex: =10
+
+    Label2_1 As label:
+        Align: =Align.Center
+        Height: =48
+        Text: ="People Coming"
+        Width: =206
+        X: =981
+        Y: =191
+        ZIndex: =11
+
