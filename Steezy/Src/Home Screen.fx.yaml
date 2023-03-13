@@ -32,6 +32,7 @@
 
     daily_stats_button As button:
         Height: =76
+        OnSelect: =
         Text: ="Daily Stats"
         Width: =210
         X: =358
