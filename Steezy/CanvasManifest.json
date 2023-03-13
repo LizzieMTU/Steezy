@@ -124,6 +124,8 @@
     "Inventory_HelmetScreen",
     "Inventory_DetailScreen",
     "Inventory_EditScreen",
-    "Statistical Screen"
+    "Daily Stats",
+    "Season Stats",
+    "Lifetime Stats"
   ]
 }
