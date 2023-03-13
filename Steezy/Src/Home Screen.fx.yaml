@@ -27,7 +27,7 @@
         Text: ="View Inventory"
         Width: =210
         X: =120
-        Y: =302
+        Y: =542
         ZIndex: =4
 
     daily_stats_button As button:
