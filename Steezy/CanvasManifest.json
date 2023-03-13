@@ -123,6 +123,7 @@
     "Inventory_BootsScreen",
     "Inventory_HelmetScreen",
     "Inventory_DetailScreen",
-    "Inventory_EditScreen"
+    "Inventory_EditScreen",
+    "Statistical Screen"
   ]
 }
