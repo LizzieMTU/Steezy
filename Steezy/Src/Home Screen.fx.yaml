@@ -93,9 +93,9 @@
     Timer1 As timer:
         AutoPause: =false
         AutoStart: =true
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(241, 244, 249, 1)
         Duration: =1000
-        Fill: =RGBA(100, 100, 100, 0)
+        Fill: =RGBA(128, 128, 128, 1)
         OnTimerEnd: |-
             =Set(varTimeData, Now(
             ))
