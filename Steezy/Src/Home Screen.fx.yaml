@@ -91,12 +91,13 @@
         ZIndex: =11
 
     Timer1 As timer:
+        AutoPause: =false
         AutoStart: =true
         Duration: =1000
         OnTimerEnd: |-
             =Set(varTimeData, Now(
             ))
-        Repeat: =true
+        Text: =Text(varTimeData, DateTimeFormat.ShortDateTime)
         X: =1071
         ZIndex: =12
 
