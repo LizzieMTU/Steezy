@@ -106,7 +106,7 @@ Inventory_BootsScreen As screen:
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =526
-        Items: =SortByColumns(Search([@Table13], TextSearchBox1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: =SortByColumns(Search([@Boots], TextSearchBox1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Inventory_DetailScreen, ScreenTransition.None)
         ShowScrollbar: =false
