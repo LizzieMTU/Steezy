@@ -1,0 +1,25 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-02-02T17:51:57.9200000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Available": "Available",
+      "Item": "Item",
+      "Out_x0020_of_x0020_service": "Out of service",
+      "Rented": "Rented",
+      "Size": "Size",
+      "Total_x0020_Quantity": "Total Quantity"
+    },
+    "DatasetName": "b!ZLLbVzGmu0WJUAtLka9S7YejOzZioKhLqLyr_4oE0-aMbjn-enigQqlCYM8AWK5Z.01DXYF3SUHQJUTG756WFF2WKTTTT4WZKDD",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table15",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
