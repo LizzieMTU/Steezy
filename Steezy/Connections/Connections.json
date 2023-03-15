@@ -42,18 +42,34 @@
     "datasets": {
       "b!ZLLbVzGmu0WJUAtLka9S7YejOzZioKhLqLyr_4oE0-aMbjn-enigQqlCYM8AWK5Z.01DXYF3SUHQJUTG756WFF2WKTTTT4WZKDD": {
         "dataSources": {
+          "Boots": {
+            "tableName": "Boots"
+          },
           "Table1": {
             "tableName": "Table1"
           },
+          "Table1_1": {
+            "tableName": "Table1"
+          },
+          "Table13": {
+            "tableName": "Table13"
+          },
           "Table14": {
             "tableName": "Table14"
+          },
+          "Table15": {
+            "tableName": "Table15"
           }
         }
       }
     },
     "dataSources": [
       "Table1",
-      "Table14"
+      "Table14",
+      "Table15",
+      "Table13",
+      "Table1_1",
+      "Boots"
     ],
     "dependencies": {
       "fileSource": "ae857b0b-141e-42ac-ba1d-2e7a3f19f5c8"
