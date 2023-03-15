@@ -90,3 +90,16 @@
         Y: =191
         ZIndex: =11
 
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Color: =RGBA(0, 0, 0, 1)
+        Duration: =1000
+        Fill: =RGBA(100, 100, 100, 0)
+        OnTimerEnd: |-
+            =Set(varTimeData, Now(
+            ))
+        Text: =Text(varTimeData, DateTimeFormat.ShortDate)
+        Width: =102
+        ZIndex: =12
+
