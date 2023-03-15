@@ -90,3 +90,13 @@
         Y: =191
         ZIndex: =11
 
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =1000
+        OnTimerEnd: |-
+            =Set(varTimeData, Now(
+            ))
+        Repeat: =true
+        X: =1071
+        ZIndex: =12
+
