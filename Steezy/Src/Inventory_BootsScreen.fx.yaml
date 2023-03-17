@@ -71,7 +71,7 @@ Inventory_BootsScreen As screen:
         Default: =""
         DelayOutput: =true
         Height: =66
-        HintText: ="Search items"
+        HintText: ="Search Sizes"
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =7
