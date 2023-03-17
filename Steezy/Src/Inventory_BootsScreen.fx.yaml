@@ -10,10 +10,10 @@ Inventory_BootsScreen As screen:
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Table14"
+        Text: ="Boots"
         Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
         Wrap: =false
-        X: =56
+        X: =76
         Y: =40
         ZIndex: =3
 
@@ -21,7 +21,7 @@ Inventory_BootsScreen As screen:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
-        OnSelect: =Refresh([@Table14])
+        OnSelect: =Refresh([@Boots])
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -106,7 +106,8 @@ Inventory_BootsScreen As screen:
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =526
-        Items: =SortByColumns(Search([@Boots], TextSearchBox1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: |
+            =SortByColumns(Search([@Boots], TextSearchBox1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Inventory_DetailScreen, ScreenTransition.None)
         ShowScrollbar: =false
