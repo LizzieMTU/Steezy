@@ -63,6 +63,7 @@
     "IconSortUpDown1": 47,
     "IconSortUpDown1_1": 28,
     "Image1": 128,
+    "Image2": 129,
     "inventory": 14,
     "Inventory_BootsScreen": 43,
     "Inventory_DetailScreen": 64,
@@ -131,7 +132,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/20/2023 17:12:31",
+  "HeaderLastSavedDateTimeUTC": "03/20/2023 17:18:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ae857b0b-141e-42ac-ba1d-2e7a3f19f5c8": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/b14c2bcea29344c7b0e6dcde27f81381\"",
@@ -139,10 +140,12 @@
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
-    "Mount-Ripley-Logo-sm": "3c18120c-2c50-4e4e-b3ad-4c48a63c4a79.jpg"
+    "Mount-Ripley-Logo-sm": "3c18120c-2c50-4e4e-b3ad-4c48a63c4a79.jpg",
+    "steezy logo": "b7399338-d8c1-42f4-b39d-657a70f7d80e.png"
   },
   "LocalResourceRootPaths": {
-    "Mount-Ripley-Logo-sm": "https://docserverpwaprodwus.blob.core.windows.net/e8dce5fe-2d7d-45ba-98b8-af3f3b2aa9a2-1/resource/c3c0e785-8bf7-4580-babf-71a71bc6571c.jpg?sv=2018-03-28&sr=b&sig=a%2Bo9X0xooDMzwBnPTj%2FJ6H2xeCEnt078pFIMt0cLAjE%3D&spr=https&se=2023-03-21T17%3A27%3A01Z&sp=r"
+    "Mount-Ripley-Logo-sm": "https://docserverpwaprodwus.blob.core.windows.net/e8dce5fe-2d7d-45ba-98b8-af3f3b2aa9a2-1/resource/c3c0e785-8bf7-4580-babf-71a71bc6571c.jpg?sv=2018-03-28&sr=b&sig=a%2Bo9X0xooDMzwBnPTj%2FJ6H2xeCEnt078pFIMt0cLAjE%3D&spr=https&se=2023-03-21T17%3A27%3A01Z&sp=r",
+    "steezy logo": "https://docserverpwaprodwus.blob.core.windows.net/e8dce5fe-2d7d-45ba-98b8-af3f3b2aa9a2-1/resource/0808e3a4-c1f8-453a-8f1c-2391deb00f20.png?sv=2018-03-28&sr=b&sig=FInrNxqlB3TVUdAfdc0d94TBObuEIMGEKPlt%2F8WRTaE%3D&spr=https&se=2023-03-21T17%3A33%3A36Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -232,6 +235,7 @@
     "IconSortUpDown1": {},
     "IconSortUpDown1_1": {},
     "Image1": {},
+    "Image2": {},
     "inventory": {},
     "Inventory_BootsScreen": {},
     "Inventory_DetailScreen": {},
@@ -361,6 +365,7 @@
     "IconSortUpDown1": 22,
     "IconSortUpDown1_1": 40,
     "Image1": 0,
+    "Image2": 0,
     "inventory": 10,
     "Inventory_BootsScreen": 18,
     "Inventory_DetailScreen": 37,
@@ -429,7 +434,8 @@
   },
   "ResourcesJsonIndices": {
     "Image-Mount-Ripley-Logo-sm": 1,
-    "Image-SampleImage": 0
+    "Image-SampleImage": 0,
+    "Image-steezy logo": 2
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},

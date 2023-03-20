@@ -104,3 +104,11 @@
         X: =1255
         ZIndex: =13
 
+    Image2 As image:
+        Height: =231
+        Image: ='steezy logo'
+        Width: =484
+        X: =102
+        Y: =537
+        ZIndex: =14
+
