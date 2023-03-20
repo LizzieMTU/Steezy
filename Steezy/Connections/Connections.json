@@ -45,14 +45,14 @@
           "Boots": {
             "tableName": "Boots"
           },
+          "Helmet": {
+            "tableName": "Helmet"
+          },
           "Table1": {
             "tableName": "Table1"
           },
           "Table1_1": {
             "tableName": "Table1"
-          },
-          "Table13": {
-            "tableName": "Table13"
           },
           "Table14": {
             "tableName": "Table14"
@@ -69,7 +69,7 @@
       "Boots",
       "Table1_1",
       "Table15",
-      "Table13"
+      "Helmet"
     ],
     "dependencies": {
       "fileSource": "ae857b0b-141e-42ac-ba1d-2e7a3f19f5c8"

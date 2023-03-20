@@ -107,7 +107,7 @@ Inventory_HelmetScreen As screen:
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =526
         Items: |
-            =SortByColumns(Search([@Boots], TextSearchBox1_1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+            =SortByColumns(Search([@Helmet], TextSearchBox1_1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Inventory_DetailScreen, ScreenTransition.None)
         ShowScrollbar: =false
@@ -128,8 +128,8 @@ Inventory_HelmetScreen As screen:
             Text: =ThisItem.Size
             VerticalAlign: =VerticalAlign.Top
             Width: =160
-            X: =104
-            Y: =38
+            X: =167
+            Y: =33
             ZIndex: =1
 
         Subtitle1_1 As label:
@@ -193,12 +193,12 @@ Inventory_HelmetScreen As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: ="Size"
+            Text: =ThisItem.Item
             Tooltip: ="Size"
             VerticalAlign: =VerticalAlign.Top
             Width: =160
-            X: =32
-            Y: =38
+            X: =20
+            Y: =33
             ZIndex: =6
 
         Body1_2 As label:
@@ -210,7 +210,7 @@ Inventory_HelmetScreen As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: ="Number Available"
+            Text: =ThisItem.'Out of service'
             VerticalAlign: =VerticalAlign.Top
             Width: =229
             X: =327

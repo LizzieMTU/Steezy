@@ -59,7 +59,7 @@ Inventory_DetailScreen As screen:
     LblAppName2 As label:
         Height: =88
         Size: =27
-        Text: ="Ski"
+        Text: ="Item Details"
         Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
         Wrap: =false
         X: =120

@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-02-02T17:51:57.9200000Z",
+      "LastChangedTimeString": "2023-03-17T21:10:52.1390000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -19,7 +19,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Table13",
+    "Name": "Helmet",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
