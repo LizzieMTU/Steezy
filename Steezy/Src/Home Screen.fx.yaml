@@ -16,12 +16,6 @@
         Y: =208
         ZIndex: =2
 
-    Image2 As image:
-        Height: =106
-        Width: =118
-        X: =1248
-        ZIndex: =3
-
     inventory As button:
         Height: =70
         Text: ="View Inventory"
@@ -102,4 +96,11 @@
         Text: =Text(varTimeData, DateTimeFormat.ShortDate)
         Width: =102
         ZIndex: =12
+
+    Image1 As image:
+        Height: =105
+        Image: ='Mount-Ripley-Logo-sm'
+        Width: =110
+        X: =1255
+        ZIndex: =13
 
