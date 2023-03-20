@@ -60,8 +60,10 @@
 
     Label1 As label:
         Align: =Align.Center
+        Height: =68
         Size: =20
         Text: ="At a Glance"
+        Width: =158
         X: =885
         Y: =88
         ZIndex: =9
