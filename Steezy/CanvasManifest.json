@@ -120,8 +120,8 @@
   "ScreenOrder": [
     "Home Screen",
     "Inventory_HomeScreen",
-    "Inventory_BootsScreen",
     "Inventory_HelmetScreen",
+    "Inventory_BootsScreen",
     "Inventory_DetailScreen",
     "Inventory_EditScreen",
     "Daily Stats",

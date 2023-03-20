@@ -4,24 +4,24 @@ Inventory_HelmetScreen As screen:
         Height: =88
         Width: =Parent.Width
         Y: =40
-        ZIndex: =2
+        ZIndex: =1
 
     LblAppName1_1 As label:
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Table14"
+        Text: ="Helmets"
         Width: =Parent.Width - Self.X - IconSortUpDown1_1.Width - IconNewItem1_1.Width - IconRefresh1_1.Width
         Wrap: =false
-        X: =56
+        X: =76
         Y: =40
-        ZIndex: =3
+        ZIndex: =2
 
     IconRefresh1_1 As icon.Reload:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
-        OnSelect: =Refresh([@Table14])
+        OnSelect: =Refresh([@Boots])
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -31,7 +31,7 @@ Inventory_HelmetScreen As screen:
         Width: =88
         X: =Parent.Width - IconNewItem1_1.Width - IconSortUpDown1_1.Width - Self.Width
         Y: =40
-        ZIndex: =4
+        ZIndex: =3
 
     IconSortUpDown1_1 As icon.ArrowsUpDown:
         AccessibleLabel: =Self.Tooltip
@@ -48,7 +48,7 @@ Inventory_HelmetScreen As screen:
         Width: =88
         X: =Parent.Width - IconNewItem1_1.Width - Self.Width
         Y: =40
-        ZIndex: =5
+        ZIndex: =4
 
     IconNewItem1_1 As icon.Add:
         AccessibleLabel: =Self.Tooltip
@@ -65,13 +65,13 @@ Inventory_HelmetScreen As screen:
         Width: =88
         X: =Parent.Width - Self.Width
         Y: =40
-        ZIndex: =6
+        ZIndex: =5
 
     TextSearchBox1_1 As text:
         Default: =""
         DelayOutput: =true
         Height: =66
-        HintText: ="Search items"
+        HintText: ="Search Sizes"
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =7
@@ -81,7 +81,7 @@ Inventory_HelmetScreen As screen:
         Width: =818
         X: =304
         Y: =154
-        ZIndex: =7
+        ZIndex: =6
 
     SearchIcon1_1 As icon.Search:
         Color: =RGBA(191, 190, 190, 1)
@@ -95,18 +95,19 @@ Inventory_HelmetScreen As screen:
         Width: =TextSearchBox1_1.Height
         X: =TextSearchBox1_1.X
         Y: =TextSearchBox1_1.Y
-        ZIndex: =8
+        ZIndex: =7
 
     Rectangle11_1 As rectangle:
         Height: =12
         Width: =1062
         X: =152
         Y: =TextSearchBox1_1.Y + TextSearchBox1_1.Height
-        ZIndex: =9
+        ZIndex: =8
 
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =526
-        Items: =SortByColumns(Search([@Table14], TextSearchBox1_1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Available", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: |
+            =SortByColumns(Search([@Boots], TextSearchBox1_1.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Inventory_DetailScreen, ScreenTransition.None)
         ShowScrollbar: =false
@@ -115,9 +116,9 @@ Inventory_HelmetScreen As screen:
         Width: =818
         X: =304
         Y: =220
-        ZIndex: =10
+        ZIndex: =9
 
-        Title1_2 As label:
+        Title1_3 As label:
             Height: =38
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -131,7 +132,7 @@ Inventory_HelmetScreen As screen:
             Y: =38
             ZIndex: =1
 
-        Subtitle1_2 As label:
+        Subtitle1_1 As label:
             FontWeight: =FontWeight.Semibold
             Height: =36
             OnSelect: =Select(Parent)
@@ -143,10 +144,10 @@ Inventory_HelmetScreen As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =160
             X: =32
-            Y: =Title1_2.Y + Title1_2.Height + 2
+            Y: =Title1_3.Y + Title1_3.Height + 2
             ZIndex: =2
 
-        Body1_2 As label:
+        Body1_3 As label:
             FontWeight: =FontWeight.Bold
             Height: =48
             OnSelect: =Select(Parent)
@@ -185,7 +186,7 @@ Inventory_HelmetScreen As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-        Title1_3 As label:
+        Title1_2 As label:
             Height: =38
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -200,7 +201,7 @@ Inventory_HelmetScreen As screen:
             Y: =38
             ZIndex: =6
 
-        Body1_3 As label:
+        Body1_2 As label:
             FontWeight: =FontWeight.Semibold
             Height: =26
             OnSelect: =Select(Parent)
@@ -220,5 +221,5 @@ Inventory_HelmetScreen As screen:
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate('Home Screen')
         Y: =52
-        ZIndex: =11
+        ZIndex: =10
 
