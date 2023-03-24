@@ -1,0 +1,225 @@
+Inventory_BootsScreen_1 As screen:
+
+    RectQuickActionBar1_2 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        Y: =40
+        ZIndex: =2
+
+    LblAppName1_2 As label:
+        Fill: =RGBA(58, 58, 58, 0)
+        Height: =88
+        Size: =27
+        Text: ="Boots"
+        Width: =Parent.Width - Self.X - IconSortUpDown1_2.Width - IconNewItem1_2.Width - IconRefresh1_2.Width
+        Wrap: =false
+        X: =76
+        Y: =40
+        ZIndex: =3
+
+    IconRefresh1_2 As icon.Reload:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Reload
+        OnSelect: =Refresh([@Boots])
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Refresh list"
+        Width: =88
+        X: =Parent.Width - IconNewItem1_2.Width - IconSortUpDown1_2.Width - Self.Width
+        Y: =40
+        ZIndex: =4
+
+    IconSortUpDown1_2 As icon.ArrowsUpDown:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext({SortDescending1: !SortDescending1})
+        PaddingBottom: =26
+        PaddingLeft: =26
+        PaddingRight: =26
+        PaddingTop: =26
+        TabIndex: =0
+        Tooltip: =If(SortDescending1, "Sort list in reverse alphabetical order", "Sort list in alphabetical order")
+        Width: =88
+        X: =Parent.Width - IconNewItem1_2.Width - Self.Width
+        Y: =40
+        ZIndex: =5
+
+    IconNewItem1_2 As icon.Add:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =If(DataSourceInfo([@Table14], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Height: =88
+        Icon: =Icon.Add
+        OnSelect: =NewForm(EditForm1);Navigate(Inventory_EditScreen, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Create new item"
+        Width: =88
+        X: =Parent.Width - Self.Width
+        Y: =40
+        ZIndex: =6
+
+    TextSearchBox1_2 As text:
+        Default: =""
+        DelayOutput: =true
+        Height: =66
+        HintText: ="Search Sizes"
+        PaddingLeft: =70
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =7
+        RadiusTopLeft: =0
+        RadiusTopRight: =7
+        Size: =21
+        Width: =818
+        X: =304
+        Y: =154
+        ZIndex: =7
+
+    SearchIcon1_2 As icon.Search:
+        Color: =RGBA(191, 190, 190, 1)
+        Height: =Self.Width
+        Icon: =Icon.Search
+        PaddingBottom: =14
+        PaddingLeft: =14
+        PaddingRight: =14
+        PaddingTop: =14
+        Tooltip: ="Search"
+        Width: =TextSearchBox1_2.Height
+        X: =TextSearchBox1_2.X
+        Y: =TextSearchBox1_2.Y
+        ZIndex: =8
+
+    Rectangle11_2 As rectangle:
+        Height: =12
+        Width: =1062
+        X: =152
+        Y: =TextSearchBox1_2.Y + TextSearchBox1_2.Height
+        ZIndex: =9
+
+    "BrowseGallery1_2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        Height: =526
+        Items: |
+            =SortByColumns(Search([@Boots], TextSearchBox1_2.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate(Inventory_DetailScreen, ScreenTransition.None)
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Width: =818
+        X: =304
+        Y: =220
+        ZIndex: =10
+
+        Title1_5 As label:
+            Height: =38
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Size
+            VerticalAlign: =VerticalAlign.Top
+            Width: =160
+            X: =104
+            Y: =38
+            ZIndex: =1
+
+        Subtitle1_2 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Item
+            VerticalAlign: =VerticalAlign.Top
+            Width: =160
+            X: =32
+            Y: =Title1_5.Y + Title1_5.Height + 2
+            ZIndex: =2
+
+        Body1_5 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =48
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.Available
+            VerticalAlign: =VerticalAlign.Top
+            Width: =164
+            X: =572
+            Y: =28
+            ZIndex: =3
+
+        NextArrow1_4 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator1_4 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+        Title1_4 As label:
+            Height: =38
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: ="Size"
+            Tooltip: ="Size"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =160
+            X: =32
+            Y: =38
+            ZIndex: =6
+
+        Body1_4 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =26
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: ="Number Available"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =229
+            X: =327
+            Y: =28
+            ZIndex: =7
+
+    Icon1_3 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Home Screen')
+        Y: =52
+        ZIndex: =11
+
