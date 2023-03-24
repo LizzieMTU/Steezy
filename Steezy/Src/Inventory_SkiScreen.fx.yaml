@@ -1,4 +1,4 @@
-Inventory_BootsScreen_1 As screen:
+Inventory_SkiScreen As screen:
 
     RectQuickActionBar1_2 As rectangle:
         Height: =88
@@ -21,7 +21,7 @@ Inventory_BootsScreen_1 As screen:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
-        OnSelect: =Refresh([@Boots])
+        OnSelect: =Refresh([@Table15])
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -107,7 +107,7 @@ Inventory_BootsScreen_1 As screen:
     "BrowseGallery1_2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =526
         Items: |
-            =SortByColumns(Search([@Boots], TextSearchBox1_2.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+            =SortByColumns(Search([@Table15], TextSearchBox1_2.Text, "Available","Item","Out_x0020_of_x0020_service"), "Size", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Inventory_DetailScreen, ScreenTransition.None)
         ShowScrollbar: =false

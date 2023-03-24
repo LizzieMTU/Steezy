@@ -584,19 +584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.Icon1_3.AccessibleLabel"
+                  "fullyQualifiedName": "Inventory_SkiScreen.Icon1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.Icon1_3.AccessibleLabel",
+                  "fullyQualifiedName": "Inventory_SkiScreen.Icon1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Inventory_BootsScreen_1",
-                "type": "Inventory_BootsScreen_1.Icon1_3"
+                "module": "Inventory_SkiScreen",
+                "type": "Inventory_SkiScreen.Icon1_3"
               }
             }
           ],
@@ -614,19 +614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.Icon1_3.TabIndex"
+                  "fullyQualifiedName": "Inventory_SkiScreen.Icon1_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.Icon1_3.TabIndex",
+                  "fullyQualifiedName": "Inventory_SkiScreen.Icon1_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Inventory_BootsScreen_1",
-                "type": "Inventory_BootsScreen_1.Icon1_3"
+                "module": "Inventory_SkiScreen",
+                "type": "Inventory_SkiScreen.Icon1_3"
               }
             }
           ],
@@ -644,19 +644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.TextSearchBox1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Inventory_SkiScreen.TextSearchBox1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.TextSearchBox1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Inventory_SkiScreen.TextSearchBox1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Inventory_BootsScreen_1",
-                "type": "Inventory_BootsScreen_1.TextSearchBox1_2"
+                "module": "Inventory_SkiScreen",
+                "type": "Inventory_SkiScreen.TextSearchBox1_2"
               }
             }
           ],
@@ -674,19 +674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.BrowseGallery1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Inventory_SkiScreen.BrowseGallery1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.BrowseGallery1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Inventory_SkiScreen.BrowseGallery1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Inventory_BootsScreen_1",
-                "type": "Inventory_BootsScreen_1.BrowseGallery1_2"
+                "module": "Inventory_SkiScreen",
+                "type": "Inventory_SkiScreen.BrowseGallery1_2"
               }
             }
           ],
@@ -704,19 +704,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.BrowseGallery1_2.TabIndex"
+                  "fullyQualifiedName": "Inventory_SkiScreen.BrowseGallery1_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Inventory_BootsScreen_1.BrowseGallery1_2.TabIndex",
+                  "fullyQualifiedName": "Inventory_SkiScreen.BrowseGallery1_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Inventory_BootsScreen_1",
-                "type": "Inventory_BootsScreen_1.BrowseGallery1_2"
+                "module": "Inventory_SkiScreen",
+                "type": "Inventory_SkiScreen.BrowseGallery1_2"
               }
             }
           ],
