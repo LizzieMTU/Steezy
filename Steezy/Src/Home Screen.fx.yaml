@@ -2,6 +2,7 @@
 
     newCust As button:
         Height: =76
+        OnSelect: =Navigate(NewCustomer_GetNameScreen)
         Text: ="New Customer"
         Width: =210
         X: =120

@@ -127,6 +127,7 @@
     "Inventory_EditScreen",
     "Current Reservations Screen",
     "Season Stats",
-    "Lifetime Stats"
+    "Lifetime Stats",
+    "NewCustomer_GetNameScreen"
   ]
 }

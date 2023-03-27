@@ -1,0 +1,62 @@
+NewCustomer_GetNameScreen As screen:
+
+    Icon1_4 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Home Screen')
+        Y: =52
+        ZIndex: =1
+
+    TextInput1 As text:
+        Default: ="Text input"
+        Height: =78
+        HintText: ="(John)"
+        Width: =504
+        X: =393
+        Y: =351
+        ZIndex: =2
+
+    TextInput1_1 As text:
+        Default: ="Text input"
+        Height: =78
+        HintText: ="(Doe)"
+        Width: =504
+        X: =393
+        Y: =487
+        ZIndex: =3
+
+    Label3 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="First Name"
+        Width: =110
+        X: =250
+        Y: =351
+        ZIndex: =4
+
+    Label3_1 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Last Name"
+        Width: =110
+        X: =250
+        Y: =487
+        ZIndex: =5
+
+    TextInput1_2 As text:
+        Default: ="Text input"
+        Height: =78
+        HintText: ="(jr, sr, III, etc.)"
+        Width: =504
+        X: =393
+        Y: =613
+        ZIndex: =6
+
+    Label3_2 As label:
+        Align: =Align.Right
+        Height: =78
+        Text: ="Additional Names or Prefixes"
+        Width: =166
+        X: =194
+        Y: =613
+        ZIndex: =7
+
