@@ -1,4 +1,4 @@
-"'Daily Stats' As screen":
+"'Current Reservations Screen' As screen":
 
     Rectangle2 As rectangle:
         Height: =70
@@ -10,9 +10,14 @@
     Label4 As label:
         Align: =Align.Center
         Height: =36
-        Text: ="Text"
+        Text: =""
         Width: =378
-        X: =60
-        Y: =60
+        X: =65
+        Y: =57
         ZIndex: =2
+
+    DatePicker1 As datepicker:
+        X: =65
+        Y: =156
+        ZIndex: =3
 
