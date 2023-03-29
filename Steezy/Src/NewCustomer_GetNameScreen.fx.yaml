@@ -85,3 +85,23 @@ NewCustomer_GetNameScreen As screen:
         Y: =69
         ZIndex: =10
 
+    Label5_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Name"
+        Width: =656
+        X: =355
+        Y: =224
+        ZIndex: =11
+
+    newCust_1 As button:
+        Height: =76
+        OnSelect: =Navigate(NewCustomer_GetNameScreen)
+        Text: ="Next Page"
+        Width: =210
+        X: =1034
+        Y: =354
+        ZIndex: =12
+
