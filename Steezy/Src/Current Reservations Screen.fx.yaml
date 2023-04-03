@@ -19,74 +19,78 @@
         ZIndex: =2
 
     DatePicker1 As datepicker:
-        X: =65
-        Y: =156
+        X: =115
+        Y: =200
         ZIndex: =3
 
-    DataTable2 As dataTable.datatable:
+    DataTable1 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =446
-        Items: =Table1_3
-        Width: =730
-        X: =80
-        Y: =222
+        Height: =392
+        Items: =Table1_4
+        Width: =954
+        X: =84
+        Y: =286
         ZIndex: =4
 
-        "'Total Quantity_Column2' As dataTableColumn.textualColumn":
+        Date_Column1 As dataTableColumn.dateTimeColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Total Quantity"
-            FieldName: ="Total_x0020_Quantity"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
+            FieldDisplayName: ="Date"
+            FieldName: ="Date"
+            FieldVariantName: ="dateTimeColumn"
+            Height: =102
             LayoutHeight: =Parent.Height
             Order: =1
-            Text: =ThisItem.'Total Quantity'
-            Width: =100
-            X: =0
-            Y: =0
+            Text: =Text(ThisItem.Date,DateTimeFormat.LongDateTime)
+            Width: =142
+            X: =21
+            Y: =156
             ZIndex: =1
 
-        Available_Column2 As dataTableColumn.textualColumn:
+        "'Daily Reservations_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Available"
-            FieldName: ="Available"
+            FieldDisplayName: ="Daily Reservations"
+            FieldName: ="Daily_x0020_Reservations"
             FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
+            Height: =102
             LayoutHeight: =Parent.Height
             Order: =2
-            Text: =ThisItem.Available
-            Width: =100
-            X: =0
-            Y: =0
+            Text: =ThisItem.'Daily Reservations'
+            Width: =190
+            X: =216
+            Y: =-398
             ZIndex: =2
 
-        Rented_Column2 As dataTableColumn.textualColumn:
+        "'Season Renters_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Rented"
-            FieldName: ="Rented"
+            FieldDisplayName: ="Season Renters"
+            FieldName: ="Season_x0020_Renters"
             FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
+            Height: =116
             LayoutHeight: =Parent.Height
             Order: =3
-            Text: =ThisItem.Rented
-            Width: =100
-            X: =0
+            Text: =ThisItem.'Season Renters'
+            Width: =126
+            X: =472
             Y: =0
             ZIndex: =3
 
-        "'Out of service_Column1' As dataTableColumn.textualColumn":
+        "'Total Renters_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Out of service"
-            FieldName: ="Out_x0020_of_x0020_service"
+            FieldDisplayName: ="Total Renters"
+            FieldName: ="Total_x0020_Renters"
             FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
+            Height: =178
             LayoutHeight: =Parent.Height
             Order: =4
-            Text: =ThisItem.'Out of service'
-            Width: =100
-            X: =0
-            Y: =0
+            Text: =ThisItem.'Total Renters'
+            Width: =126
+            X: =555
+            Y: =230
             ZIndex: =4
 
