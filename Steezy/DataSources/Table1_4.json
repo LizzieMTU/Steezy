@@ -1,0 +1,23 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-03-21T17:10:20.7450000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Daily_x0020_Reservations": "Daily Reservations",
+      "Date": "Date",
+      "Season_x0020_Renters": "Season Renters",
+      "Total_x0020_Renters": "Total Renters"
+    },
+    "DatasetName": "65F622321E7FCB07!2641174",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table1_4",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
