@@ -92,7 +92,7 @@
         AutoStart: =true
         Color: =RGBA(241, 244, 249, 1)
         Duration: =1000
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(237, 237, 237, 1)
         OnTimerEnd: |-
             =Set(varTimeData, Now(
             ))
