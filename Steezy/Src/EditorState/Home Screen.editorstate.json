@@ -2882,7 +2882,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingString": "RGBA(56, 96, 178, 1)",
           "InvariantPropertyName": "Fill",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
