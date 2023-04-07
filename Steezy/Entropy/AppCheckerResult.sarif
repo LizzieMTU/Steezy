@@ -1124,19 +1124,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewCustomer_GetBoardStance.Dropdown1_2.AccessibleLabel"
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Dropdown1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewCustomer_GetBoardStance.Dropdown1_2.AccessibleLabel",
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Dropdown1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "NewCustomer_GetBoardStance",
-                "type": "NewCustomer_GetBoardStance.Dropdown1_2"
+                "module": "NewCustomer_GetBirthdayScreen",
+                "type": "NewCustomer_GetBirthdayScreen.Dropdown1_2"
               }
             }
           ],
@@ -1154,19 +1154,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewCustomer_GetBoardStance.Icon1_7.AccessibleLabel"
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Icon1_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewCustomer_GetBoardStance.Icon1_7.AccessibleLabel",
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Icon1_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "NewCustomer_GetBoardStance",
-                "type": "NewCustomer_GetBoardStance.Icon1_7"
+                "module": "NewCustomer_GetBirthdayScreen",
+                "type": "NewCustomer_GetBirthdayScreen.Icon1_7"
               }
             }
           ],
@@ -1184,19 +1184,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewCustomer_GetBoardStance.Icon1_7.TabIndex"
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Icon1_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewCustomer_GetBoardStance.Icon1_7.TabIndex",
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Icon1_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "NewCustomer_GetBoardStance",
-                "type": "NewCustomer_GetBoardStance.Icon1_7"
+                "module": "NewCustomer_GetBirthdayScreen",
+                "type": "NewCustomer_GetBirthdayScreen.Icon1_7"
               }
             }
           ],
@@ -1208,6 +1208,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Dropdown1_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Dropdown1_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewCustomer_GetBirthdayScreen",
+                "type": "NewCustomer_GetBirthdayScreen.Dropdown1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Dropdown1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewCustomer_GetBirthdayScreen.Dropdown1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewCustomer_GetBirthdayScreen",
+                "type": "NewCustomer_GetBirthdayScreen.Dropdown1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [

@@ -25,87 +25,6 @@
         Y: =200
         ZIndex: =3
 
-    DataTable2 As dataTable.datatable:
-        BorderStyle: =BorderStyle.Solid
-        DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =454
-        Items: =Table1_5
-        Width: =1206
-        X: =94
-        Y: =266
-        ZIndex: =5
-
-        "'Date of Rental_Column1' As dataTableColumn.dateTimeColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Date of Rental"
-            FieldName: ="Date_x0020_of_x0020_Rental"
-            FieldVariantName: ="dateTimeColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =1
-            Text: =Text(ThisItem.'Date of Rental',DateTimeFormat.LongDateTime)
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-        "'First Name_Column1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="First Name"
-            FieldName: ="First_x0020_Name"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =2
-            Text: =ThisItem.'First Name'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =2
-
-        "'Last Name_Column1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Last Name"
-            FieldName: ="Last_x0020_Name"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.'Last Name'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =3
-
-        "'Phone Number_Column1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Phone Number"
-            FieldName: ="Phone_x0020_Number"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =4
-            Text: =ThisItem.'Phone Number'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =4
-
-        Timestamp_Column1 As dataTableColumn.dateTimeColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Timestamp"
-            FieldName: ="Timestamp"
-            FieldVariantName: ="dateTimeColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =5
-            Text: =Text(ThisItem.Timestamp,DateTimeFormat.LongDateTime)
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =5
-
     Image3 As image:
         Height: =194
         Image: ='Mount-Ripley-Logo-sm'
@@ -113,4 +32,29 @@
         X: =65
         Y: =526
         ZIndex: =6
+
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =314
+        Items: =Table1_6
+        Width: =1244
+        X: =80
+        Y: =266
+        ZIndex: =7
+
+        "'Email Address_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Email Address"
+            FieldName: ="Email_x0020_Address"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.'Email Address'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
 
