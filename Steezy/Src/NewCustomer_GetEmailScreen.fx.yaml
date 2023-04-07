@@ -54,7 +54,7 @@ NewCustomer_GetEmailScreen As screen:
         FontWeight: =FontWeight.Bold
         Height: =78
         Size: =30
-        Text: ="Customer Name"
+        Text: ="Customer Email"
         Width: =656
         X: =355
         Y: =224
