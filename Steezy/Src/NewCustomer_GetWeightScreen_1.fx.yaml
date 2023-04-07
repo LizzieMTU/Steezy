@@ -1,0 +1,86 @@
+NewCustomer_GetWeightScreen_1 As screen:
+
+    Label3_7 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="US boot size"
+        Width: =110
+        X: =245
+        Y: =344
+        ZIndex: =3
+
+    Rectangle3_8 As rectangle:
+        Height: =128
+        Width: =1366
+        Y: =47
+        ZIndex: =7
+
+    Icon1_8 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Home Screen')
+        Y: =83
+        ZIndex: =8
+
+    Rectangle3_9 As rectangle:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =82
+        Width: =656
+        X: =355
+        Y: =69
+        ZIndex: =9
+
+    Label5_8 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Information Entry"
+        Width: =656
+        X: =355
+        Y: =69
+        ZIndex: =10
+
+    Label5_9 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Boot Size"
+        Width: =656
+        X: =355
+        Y: =224
+        ZIndex: =11
+
+    newCust_5 As button:
+        Height: =76
+        OnSelect: =Navigate(NewCustomer_GetWeightScreen_1)
+        Text: ="Next Page"
+        Width: =210
+        X: =1036
+        Y: =505
+        ZIndex: =12
+
+    Dropdown1_2 As dropdown:
+        Height: =59
+        Items: =DropDownSample
+        Width: =504
+        X: =431
+        Y: =354
+        ZIndex: =15
+
+    ListBox1 As listbox:
+        Items: =ListboxSample
+        Width: =504
+        X: =431
+        Y: =446
+        ZIndex: =16
+
+    Label3_8 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Type"
+        Width: =110
+        X: =245
+        Y: =446
+        ZIndex: =17
+

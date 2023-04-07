@@ -130,6 +130,8 @@
     "NewCustomer_GetNameScreen",
     "NewCustomer_GetEmailScreen",
     "NewCustomer_GetHeightScreen",
+    "NewCustomer_GetWeightScreen",
+    "NewCustomer_GetWeightScreen_1",
     "NewCustomer_GetAgeScreen"
   ]
 }
