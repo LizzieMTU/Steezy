@@ -1,0 +1,10 @@
+NewCustomer_GetWeightScreen As screen:
+
+    Dropdown1_1 As dropdown:
+        Height: =59
+        Items: =DropDownSample
+        Width: =504
+        X: =431
+        Y: =354
+        ZIndex: =15
+
