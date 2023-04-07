@@ -113,11 +113,23 @@
             "tableName": "Table1"
           }
         }
+      },
+      "65F622321E7FCB07!2642910": {
+        "dataSources": {
+          "Table1_7": {
+            "tableName": "Table1"
+          },
+          "Table1_8": {
+            "tableName": "Table1"
+          }
+        }
       }
     },
     "dataSources": [
       "Table1_2",
-      "Table1_3"
+      "Table1_3",
+      "Table1_7",
+      "Table1_8"
     ],
     "dependencies": {
       "fileSource": "c9997293-e995-4d98-945d-f016be4cdd70"

@@ -21,8 +21,8 @@
         ZIndex: =2
 
     DatePicker1 As datepicker:
-        X: =115
-        Y: =200
+        X: =103
+        Y: =160
         ZIndex: =3
 
     Image3 As image:
@@ -33,18 +33,32 @@
         Y: =526
         ZIndex: =6
 
-    DataTable1 As dataTable.datatable:
+    DataTable2 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =314
-        Items: =Table1_6
-        Width: =1244
-        X: =80
-        Y: =266
+        Height: =292
+        Items: =Table1_8
+        Width: =1222
+        X: =90
+        Y: =250
         ZIndex: =7
 
-        "'Email Address_Column1' As dataTableColumn.textualColumn":
+        "'Date of Rental_Column3' As dataTableColumn.dateTimeColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Date of Rental"
+            FieldName: ="Date_x0020_of_x0020_Rental"
+            FieldVariantName: ="dateTimeColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =Text(ThisItem.'Date of Rental',DateTimeFormat.LongDateTime)
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "'Email Address_Column3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Email Address"
             FieldName: ="Email_x0020_Address"
@@ -57,4 +71,60 @@
             X: =0
             Y: =0
             ZIndex: =2
+
+        "'First Name_Column3' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="First Name"
+            FieldName: ="First_x0020_Name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'First Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        "'Last Name_Column3' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Last Name"
+            FieldName: ="Last_x0020_Name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'Last Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+        "'Phone Number_Column3' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Phone Number"
+            FieldName: ="Phone_x0020_Number"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.'Phone Number'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        Timestamp_Column3 As dataTableColumn.dateTimeColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Timestamp"
+            FieldName: ="Timestamp"
+            FieldVariantName: ="dateTimeColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =Text(ThisItem.Timestamp,DateTimeFormat.LongDateTime)
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
 
