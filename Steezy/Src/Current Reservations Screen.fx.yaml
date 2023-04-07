@@ -1,4 +1,6 @@
 "'Current Reservations Screen' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(167, 206, 212, 1)
 
     Rectangle2 As rectangle:
         Height: =70
@@ -23,74 +25,36 @@
         Y: =200
         ZIndex: =3
 
+    Image3 As image:
+        Height: =194
+        Image: ='Mount-Ripley-Logo-sm'
+        Width: =204
+        X: =65
+        Y: =526
+        ZIndex: =6
+
     DataTable1 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =392
-        Items: =Table1_4
-        Width: =954
-        X: =84
-        Y: =286
-        ZIndex: =4
+        Height: =314
+        Items: =Table1_6
+        Width: =1244
+        X: =80
+        Y: =266
+        ZIndex: =7
 
-        Date_Column1 As dataTableColumn.dateTimeColumn:
-            AutoWidth: =false
+        "'Email Address_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Date"
-            FieldName: ="Date"
-            FieldVariantName: ="dateTimeColumn"
-            Height: =102
-            LayoutHeight: =Parent.Height
-            Order: =1
-            Text: =Text(ThisItem.Date,DateTimeFormat.LongDateTime)
-            Width: =142
-            X: =21
-            Y: =156
-            ZIndex: =1
-
-        "'Daily Reservations_Column1' As dataTableColumn.textualColumn":
-            AutoWidth: =false
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Daily Reservations"
-            FieldName: ="Daily_x0020_Reservations"
+            FieldDisplayName: ="Email Address"
+            FieldName: ="Email_x0020_Address"
             FieldVariantName: ="textualColumn"
-            Height: =102
+            Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =2
-            Text: =ThisItem.'Daily Reservations'
-            Width: =190
-            X: =216
-            Y: =-398
-            ZIndex: =2
-
-        "'Season Renters_Column1' As dataTableColumn.textualColumn":
-            AutoWidth: =false
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Season Renters"
-            FieldName: ="Season_x0020_Renters"
-            FieldVariantName: ="textualColumn"
-            Height: =116
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.'Season Renters'
-            Width: =126
-            X: =472
+            Text: =ThisItem.'Email Address'
+            Width: =100
+            X: =0
             Y: =0
-            ZIndex: =3
-
-        "'Total Renters_Column1' As dataTableColumn.textualColumn":
-            AutoWidth: =false
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Total Renters"
-            FieldName: ="Total_x0020_Renters"
-            FieldVariantName: ="textualColumn"
-            Height: =178
-            LayoutHeight: =Parent.Height
-            Order: =4
-            Text: =ThisItem.'Total Renters'
-            Width: =126
-            X: =555
-            Y: =230
-            ZIndex: =4
+            ZIndex: =2
 

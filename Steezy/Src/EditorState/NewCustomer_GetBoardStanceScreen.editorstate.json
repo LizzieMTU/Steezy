@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Season Stats": {
+    "NewCustomer_GetBoardStanceScreen": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -20,7 +20,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Season Stats",
+      "Name": "NewCustomer_GetBoardStanceScreen",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -69,5 +69,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Season Stats"
+  "TopParentName": "NewCustomer_GetBoardStanceScreen"
 }
