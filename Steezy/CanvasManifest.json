@@ -125,11 +125,15 @@
     "Inventory_DetailScreen",
     "Inventory_EditScreen",
     "Current Reservations Screen",
+    "Season Stats",
+    "Lifetime Stats",
     "NewCustomer_GetNameScreen",
     "NewCustomer_GetEmailScreen",
     "NewCustomer_GetHeightScreen",
-    "NewCustomer_GetBoardStanceScreen",
+    "NewCustomer_GetWeightScreen",
+    "NewCustomer_GetWeightScreen_1",
+    "NewCustomer_GetAgeScreen",
     "NewCustomer_GetBoardStance",
-    "NewCustomer_GetAgeScreen"
+    "NewCustomer_GetBoardStanceScreen"
   ]
 }
