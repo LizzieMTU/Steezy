@@ -78,3 +78,11 @@ NewCustomer_GetHeightScreen As screen:
         Y: =471
         ZIndex: =14
 
+    Dropdown1 As dropdown:
+        Height: =59
+        Items: =DropDownSample
+        Width: =504
+        X: =431
+        Y: =336
+        ZIndex: =15
+
