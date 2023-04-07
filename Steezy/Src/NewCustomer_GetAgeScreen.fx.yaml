@@ -1,11 +1,2 @@
 NewCustomer_GetAgeScreen As screen:
 
-    TextInput1_4 As text:
-        Default: =""
-        Height: =78
-        HintText: ="johndoe@gmail.com"
-        Width: =504
-        X: =431
-        Y: =351
-        ZIndex: =1
-
