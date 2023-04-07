@@ -12,8 +12,8 @@ Inventory_HomeScreen As screen:
         OnSelect: =Navigate(Inventory_HelmetScreen)
         Text: ="Helmets"
         Width: =230
-        X: =201
-        Y: =203
+        X: =585
+        Y: =160
         ZIndex: =4
 
     inventory_skiBootsButton As button:
@@ -23,39 +23,39 @@ Inventory_HomeScreen As screen:
             ="Ski Boots
             "
         Width: =230
-        X: =201
-        Y: =261
+        X: =585
+        Y: =219
         ZIndex: =5
 
     inventory_skiesButton As button:
         Height: =45
         Text: ="Skies"
         Width: =230
-        X: =201
-        Y: =321
+        X: =585
+        Y: =276
         ZIndex: =6
 
     inventory_polesButton As button:
         Height: =45
         Text: ="Poles"
         Width: =230
-        X: =201
-        Y: =379
+        X: =585
+        Y: =331
         ZIndex: =7
 
     inventory_snowboardsButton As button:
         Height: =45
         Text: ="Snowboards"
         Width: =230
-        X: =201
-        Y: =436
+        X: =585
+        Y: =388
         ZIndex: =8
 
     inventory_SnowboardBootsButton As button:
         Height: =45
         Text: ="Snowboard Boots"
         Width: =230
-        X: =201
-        Y: =494
+        X: =585
+        Y: =452
         ZIndex: =9
 

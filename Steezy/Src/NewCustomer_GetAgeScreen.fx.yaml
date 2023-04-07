@@ -1,8 +1,2 @@
 NewCustomer_GetAgeScreen As screen:
 
-    Dropdown1 As dropdown:
-        Items: =DropDownSample
-        X: =507
-        Y: =370
-        ZIndex: =13
-
