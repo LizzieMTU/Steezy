@@ -128,7 +128,7 @@
     "NewCustomer_GetNameScreen",
     "NewCustomer_GetEmailScreen",
     "NewCustomer_GetHeightScreen",
-    "NewCustomer_GetBirthdayScreen",
+    "NewCustomer_GetBoardStance",
     "NewCustomer_GetAgeScreen"
   ]
 }

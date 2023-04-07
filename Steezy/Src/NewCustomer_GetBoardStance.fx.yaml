@@ -1,4 +1,4 @@
-NewCustomer_GetBirthdayScreen As screen:
+NewCustomer_GetBoardStance As screen:
 
     Label3_6 As label:
         Align: =Align.Center
@@ -53,7 +53,7 @@ NewCustomer_GetBirthdayScreen As screen:
 
     newCust_4 As button:
         Height: =76
-        OnSelect: =Navigate(NewCustomer_GetBirthdayScreen)
+        OnSelect: =Navigate(NewCustomer_GetBoardStance)
         Text: ="Next Page"
         Width: =210
         X: =578
@@ -74,24 +74,8 @@ NewCustomer_GetBirthdayScreen As screen:
         Items: =HeightTable
         Width: =504
         X: =431
-        Y: =336
+        Y: =410
         ZIndex: =15
-
-    Dropdown1_3 As dropdown:
-        Height: =59
-        Items: =HeightTable
-        Width: =504
-        X: =431
-        Y: =412
-        ZIndex: =16
-
-    Dropdown1_4 As dropdown:
-        Height: =59
-        Items: =HeightTable
-        Width: =504
-        X: =431
-        Y: =495
-        ZIndex: =17
 
     Label3_8 As label:
         Align: =Align.Center
