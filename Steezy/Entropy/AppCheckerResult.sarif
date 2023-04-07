@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewCustomer_GetHeightScreen.Dropdown1_1.AccessibleLabel"
+                  "fullyQualifiedName": "NewCustomer_GetHeightScreen.TextInput1_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewCustomer_GetHeightScreen.Dropdown1_1.AccessibleLabel",
+                  "fullyQualifiedName": "NewCustomer_GetHeightScreen.TextInput1_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NewCustomer_GetHeightScreen",
-                "type": "NewCustomer_GetHeightScreen.Dropdown1_1"
+                "type": "NewCustomer_GetHeightScreen.TextInput1_5"
               }
             }
           ],
