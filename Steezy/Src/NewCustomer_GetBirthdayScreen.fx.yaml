@@ -1,0 +1,104 @@
+NewCustomer_GetBirthdayScreen As screen:
+
+    Label3_6 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Height (feet)"
+        Width: =110
+        X: =245
+        Y: =317
+        ZIndex: =3
+
+    Rectangle3_6 As rectangle:
+        Height: =128
+        Width: =1366
+        Y: =47
+        ZIndex: =7
+
+    Icon1_7 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Home Screen')
+        Y: =83
+        ZIndex: =8
+
+    Rectangle3_7 As rectangle:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =82
+        Width: =656
+        X: =355
+        Y: =69
+        ZIndex: =9
+
+    Label5_6 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Information Entry"
+        Width: =656
+        X: =355
+        Y: =69
+        ZIndex: =10
+
+    Label5_7 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Date of Birth"
+        Width: =656
+        X: =355
+        Y: =224
+        ZIndex: =11
+
+    newCust_4 As button:
+        Height: =76
+        OnSelect: =Navigate(NewCustomer_GetBirthdayScreen)
+        Text: ="Next Page"
+        Width: =210
+        X: =578
+        Y: =631
+        ZIndex: =12
+
+    Label3_7 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Height (inches)"
+        Width: =110
+        X: =245
+        Y: =402
+        ZIndex: =14
+
+    Dropdown1_2 As dropdown:
+        Height: =59
+        Items: =HeightTable
+        Width: =504
+        X: =431
+        Y: =336
+        ZIndex: =15
+
+    Dropdown1_3 As dropdown:
+        Height: =59
+        Items: =HeightTable
+        Width: =504
+        X: =431
+        Y: =412
+        ZIndex: =16
+
+    Dropdown1_4 As dropdown:
+        Height: =59
+        Items: =HeightTable
+        Width: =504
+        X: =431
+        Y: =495
+        ZIndex: =17
+
+    Label3_8 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Height (inches)"
+        Width: =110
+        X: =245
+        Y: =485
+        ZIndex: =18
+
