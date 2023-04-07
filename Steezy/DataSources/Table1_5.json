@@ -1,0 +1,31 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-03-21T17:10:20.7450000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Date_x0020_of_x0020_Rental": "Date of Rental",
+      "Email_x0020_Address": "Email Address",
+      "First_x0020_Name": "First Name",
+      "Have_x0020_you_x0020_rented_x0020_at_x0020_Ripley_x0020_before_x003f_": "Have you rented at Ripley before?",
+      "Height": "Height",
+      "Last_x0020_Name": "Last Name",
+      "Phone_x0020_Number": "Phone Number",
+      "Shoe_x0020_Size": "Shoe Size",
+      "Ski_x0020_or_x0020_Snowboard": "Ski or Snowboard",
+      "Timestamp": "Timestamp",
+      "Weight": "Weight",
+      "What_x0020_is_x0020_your_x0020_experience_x0020_level_x003f__x0020_\n": "What is your experience level?  "
+    },
+    "DatasetName": "65F622321E7FCB07!2642910",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table1_5",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
