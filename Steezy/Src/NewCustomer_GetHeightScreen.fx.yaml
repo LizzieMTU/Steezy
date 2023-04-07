@@ -56,23 +56,14 @@ NewCustomer_GetHeightScreen As screen:
         OnSelect: =Navigate(NewCustomer_GetHeightScreen)
         Text: ="Next Page"
         Width: =210
-        X: =1034
-        Y: =354
+        X: =578
+        Y: =631
         ZIndex: =12
-
-    TextInput1_5 As text:
-        Default: =""
-        Height: =78
-        HintText: ="johndoe@gmail.com"
-        Width: =504
-        X: =431
-        Y: =471
-        ZIndex: =13
 
     Label3_5 As label:
         Align: =Align.Center
         Height: =78
-        Text: ="Height (feet)"
+        Text: ="Height (inches)"
         Width: =110
         X: =245
         Y: =471
@@ -80,9 +71,17 @@ NewCustomer_GetHeightScreen As screen:
 
     Dropdown1 As dropdown:
         Height: =59
-        Items: =DropDownSample
+        Items: =HeightTable
         Width: =504
         X: =431
         Y: =336
         ZIndex: =15
+
+    Dropdown1_1 As dropdown:
+        Height: =59
+        Items: =HeightTable
+        Width: =504
+        X: =431
+        Y: =480
+        ZIndex: =16
 
