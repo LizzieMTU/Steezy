@@ -129,6 +129,7 @@
     "Lifetime Stats",
     "NewCustomer_GetNameScreen",
     "NewCustomer_GetEmailScreen",
-    "NewCustomer_GetHeightScreen"
+    "NewCustomer_GetHeightScreen",
+    "NewCustomer_GetAgeScreen"
   ]
 }
