@@ -5587,7 +5587,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconAccept1",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5801,7 +5801,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCancel1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6232,7 +6232,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LblAppName3",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
