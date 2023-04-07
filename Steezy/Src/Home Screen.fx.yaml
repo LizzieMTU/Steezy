@@ -72,7 +72,7 @@
     Label2 As label:
         Align: =Align.Center
         Height: =48
-        Text: ="Number of reservations today"
+        Text: ="Setups Completed for reservations"
         Width: =206
         X: =714
         Y: =195
@@ -81,7 +81,7 @@
     Label2_1 As label:
         Align: =Align.Center
         Height: =48
-        Text: ="People Coming"
+        Text: ="Number of Passes Booked for Today"
         Width: =206
         X: =981
         Y: =191
@@ -114,4 +114,12 @@
         X: =102
         Y: =537
         ZIndex: =14
+
+    Label6 As label:
+        Height: =34
+        Text: ="25 / 50"
+        Width: =68
+        X: =783
+        Y: =253
+        ZIndex: =15
 
