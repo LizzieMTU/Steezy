@@ -62,6 +62,9 @@
           "Boots": {
             "tableName": "Boots"
           },
+          "HeightTable": {
+            "tableName": "HeightTable"
+          },
           "Helmet": {
             "tableName": "Helmet"
           },
@@ -86,7 +89,8 @@
       "Boots",
       "Table1_1",
       "Table15",
-      "Helmet"
+      "Helmet",
+      "HeightTable"
     ],
     "dependencies": {
       "fileSource": "ae857b0b-141e-42ac-ba1d-2e7a3f19f5c8"
