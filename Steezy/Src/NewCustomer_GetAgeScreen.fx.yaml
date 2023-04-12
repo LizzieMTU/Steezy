@@ -1,2 +1,70 @@
 NewCustomer_GetAgeScreen As screen:
 
+    Label3_7 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Board Stance"
+        Width: =110
+        X: =250
+        Y: =351
+        ZIndex: =3
+
+    Rectangle3_10 As rectangle:
+        Height: =128
+        Width: =1366
+        Y: =47
+        ZIndex: =7
+
+    Icon1_9 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Home Screen')
+        Y: =83
+        ZIndex: =8
+
+    Rectangle3_11 As rectangle:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =82
+        Width: =656
+        X: =355
+        Y: =69
+        ZIndex: =9
+
+    Label5_10 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Information Entry"
+        Width: =656
+        X: =355
+        Y: =69
+        ZIndex: =10
+
+    Label5_11 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =78
+        Size: =30
+        Text: ="Customer Board Stance"
+        Width: =656
+        X: =355
+        Y: =224
+        ZIndex: =11
+
+    newCust_6 As button:
+        Height: =76
+        OnSelect: =Navigate(NewCustomer_GetAgeScreen)
+        Text: ="Next Page"
+        Width: =210
+        X: =1034
+        Y: =354
+        ZIndex: =12
+
+    Dropdown2_1 As dropdown:
+        Height: =79
+        Items: =BoardStance
+        Width: =460
+        X: =453
+        Y: =354
+        ZIndex: =13
+
