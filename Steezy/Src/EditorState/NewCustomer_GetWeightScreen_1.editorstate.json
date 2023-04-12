@@ -801,7 +801,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ListBox1",
-      "ParentIndex": 8,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1048,7 +1048,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "newCust_5",
-      "ParentIndex": 9,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
