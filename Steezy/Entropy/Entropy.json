@@ -213,7 +213,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/12/2023 17:06:51",
+  "HeaderLastSavedDateTimeUTC": "04/12/2023 17:08:22",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ae857b0b-141e-42ac-ba1d-2e7a3f19f5c8": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/98a2109870984f41819cfe93a3c99300\"",
@@ -233,10 +233,12 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
+    "BoardStance": 17,
     "Boots": 0,
     "CustomGallerySample": 1,
     "DropDownSample": 2,
     "HeightTable": 3,
+    "HeightTable_1": 18,
     "Helmet": 4,
     "ListboxSample": 5,
     "Table1": 6,
