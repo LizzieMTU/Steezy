@@ -3,7 +3,7 @@ NewCustomer_GetAgeScreen As screen:
     Label3_7 As label:
         Align: =Align.Center
         Height: =78
-        Text: ="Board Stance"
+        Text: ="Month"
         Width: =110
         X: =250
         Y: =351
@@ -45,7 +45,7 @@ NewCustomer_GetAgeScreen As screen:
         FontWeight: =FontWeight.Bold
         Height: =78
         Size: =30
-        Text: ="Customer Board Stance"
+        Text: ="Customer Age"
         Width: =656
         X: =355
         Y: =224
@@ -67,4 +67,38 @@ NewCustomer_GetAgeScreen As screen:
         X: =453
         Y: =354
         ZIndex: =13
+
+    Dropdown2_2 As dropdown:
+        Height: =79
+        Items: =BoardStance
+        Width: =460
+        X: =453
+        Y: =448
+        ZIndex: =14
+
+    Dropdown2_3 As dropdown:
+        Height: =79
+        Items: =BoardStance
+        Width: =460
+        X: =453
+        Y: =542
+        ZIndex: =15
+
+    Label3_8 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Day"
+        Width: =110
+        X: =250
+        Y: =447
+        ZIndex: =16
+
+    Label3_9 As label:
+        Align: =Align.Center
+        Height: =78
+        Text: ="Year"
+        Width: =110
+        X: =250
+        Y: =543
+        ZIndex: =17
 
