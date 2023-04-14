@@ -223,3 +223,11 @@ Inventory_HelmetScreen As screen:
         Y: =52
         ZIndex: =10
 
+    Button1_1 As button:
+        Height: =62
+        Text: ="Run a Maintenance Test"
+        Width: =230
+        X: =21
+        Y: =285
+        ZIndex: =11
+
