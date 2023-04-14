@@ -223,3 +223,11 @@ Inventory_BootsScreen As screen:
         Y: =52
         ZIndex: =11
 
+    Button1 As button:
+        Height: =62
+        Text: ="Run a Maintenance Test"
+        Width: =230
+        X: =21
+        Y: =285
+        ZIndex: =12
+

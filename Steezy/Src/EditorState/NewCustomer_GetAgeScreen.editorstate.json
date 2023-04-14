@@ -62,7 +62,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Dropdown2_1",
-      "ParentIndex": 8,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1333,7 +1333,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_8",
-      "ParentIndex": 6,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1602,7 +1602,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_9",
-      "ParentIndex": 7,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2434,7 +2434,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "newCust_6",
-      "ParentIndex": 11,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
